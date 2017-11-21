@@ -1,0 +1,14 @@
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csprojResolveAssemblyReference.cache
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.dll
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.pdb
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.dll
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.pdb
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.dll
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.pdb
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.dll
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.DAL.pdb
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.dll
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\bin\Debug\BookShop.Model.pdb
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.csprojResolveAssemblyReference.cache
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.dll
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.DAL\obj\Debug\BookShop.DAL.pdb

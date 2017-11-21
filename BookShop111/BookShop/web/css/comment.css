@@ -1,0 +1,84 @@
+﻿       .close{
+            position: absolute;
+            top: 0px;
+            left: 176px;
+        }
+        .forget{
+             position: absolute;
+             top: 216px;
+             left: 58px;
+             color:red;
+             font-size:12px;
+        }
+       .zhuce{
+           position: absolute;
+             top: 216px;
+             left: 260px;
+             color:blue;
+             font-size:12px;
+       }
+       .h-login{
+           color:white;
+           position:absolute;
+           top:48px;
+           left:1124px;
+       }
+       .h-login:hover{
+           color:#333333;
+           cursor:pointer;
+       }
+           #alertBox {
+            width: 350px;
+            height: 329px;
+            background-image: url("../images/login_background.png"); 
+            position: fixed;
+            top: 100px;
+            left: 500px;
+            display: none;
+            z-index:2;
+        }
+        #curtain {
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background-color: rgba(20, 19, 22, 0.97);
+            opacity: 0.3;
+            z-index:1;
+            display: none;
+        }
+
+      
+        #cancelButton {
+            float: right;
+            margin-top: 240px;
+            margin-left: 0px;
+        }
+         .inputStyle1{
+	        position: absolute;
+			border-color:#0593d3;
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top:104px;
+			left: 70px;
+		}
+        .inputStyle2{
+       		position: absolute;
+			border-color:#0593d3;			
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top: 162px;
+			left: 70px;
+        }
+  .bookcontent{
+            position: relative;
+            top: -200px;
+            left: 676px;
+            height: 311px;
+            width: 388px;
+        }
+  .jianjie{
+      color:rgba(20, 19, 22, 0.97);
+      font-size:22px;
+  }

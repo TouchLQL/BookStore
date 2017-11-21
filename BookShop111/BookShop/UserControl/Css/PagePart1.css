@@ -1,0 +1,33 @@
+﻿.myPage
+{
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+.myPage .lbtotalPages
+{
+    color:red;
+    
+}
+.myPage input
+{
+    border:1px solid #c2e1ef;
+    font-size:12px;
+    height:20px;
+    width:30px;
+    padding-left:2px;
+    line-height:20px;
+}
+.myPage a
+{
+     TEXT-DECORATION:none;
+     padding-top:3px;
+     padding-bottom:3px;
+     padding-left:5px;
+     padding-right:5px;
+     border:1px solid;
+     border-color:#c2e1ef;
+     background-color:White;
+     font-size:12px;
+}

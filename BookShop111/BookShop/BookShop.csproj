@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D31A046F-B8D5-4013-8C46-EC6530237BB3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookShop</RootNamespace>
+    <AssemblyName>BookShop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Admin\button.css" />
+    <Content Include="App_Themes\Admin\gridviewTemplate.css" />
+    <Content Include="App_Themes\Admin\image\account_info_bg.png" />
+    <Content Include="App_Themes\Admin\image\button\btnBlue_bg.gif" />
+    <Content Include="App_Themes\Admin\image\button\btnBlue_hover.gif" />
+    <Content Include="App_Themes\Admin\image\button\button_nor.gif" />
+    <Content Include="App_Themes\Admin\image\button\button_nor_hover.gif" />
+    <Content Include="App_Themes\Admin\image\button\text_nor.gif" />
+    <Content Include="App_Themes\Admin\image\button\topic.bg.256.png" />
+    <Content Include="App_Themes\Admin\image\button_nor.gif" />
+    <Content Include="App_Themes\Admin\image\button_nor_hover.gif" />
+    <Content Include="App_Themes\Admin\image\dialogpanel.png" />
+    <Content Include="App_Themes\Admin\image\dialogpanel_icon.png" />
+    <Content Include="App_Themes\Admin\image\grid.png" />
+    <Content Include="App_Themes\Admin\image\icons.gif" />
+    <Content Include="App_Themes\Admin\image\ico_tablehead.gif" />
+    <Content Include="App_Themes\Admin\image\pageHeader_bg.png" />
+    <Content Include="App_Themes\Admin\image\panel\panel.png" />
+    <Content Include="App_Themes\Admin\image\panel\panel_icon.png" />
+    <Content Include="App_Themes\Admin\image\tableth.png" />
+    <Content Include="App_Themes\Admin\image\tabs\tabscontrol.png" />
+    <Content Include="App_Themes\Admin\image\tabs\tabspage.png" />
+    <Content Include="App_Themes\Admin\image\tabs\tabspage_icon.png" />
+    <Content Include="App_Themes\Admin\image\tabs\tabspanel.png" />
+    <Content Include="App_Themes\Admin\image\thead.gif" />
+    <Content Include="App_Themes\Admin\image\tree\check.png" />
+    <Content Include="App_Themes\Admin\image\tree\folder.png" />
+    <Content Include="App_Themes\Admin\image\tree\tree.png" />
+    <Content Include="App_Themes\Admin\input.css" />
+    <Content Include="App_Themes\Admin\InputInfoTemplate.css" />
+    <Content Include="App_Themes\Admin\panelTemplate.css" />
+    <Content Include="App_Themes\Admin\StyleSheetTemplate.css" />
+    <Content Include="App_Themes\Admin\tableTemplate.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="dwz.frag.xml" />
+    <Content Include="dwzJs\jquery.validate1.9.js.bak" />
+    <Content Include="LeftMenu.aspx" />
+    <Content Include="web\back\backLogin.aspx" />
+    <Content Include="web\back\BookAddOrEdit.aspx" />
+    <Content Include="web\back\booksmanage.aspx" />
+    <Content Include="web\back\OrderAddOrEdit.aspx" />
+    <Content Include="web\back\ordermanage.aspx" />
+    <Content Include="web\back\UserAddOrEdit.aspx" />
+    <Content Include="web\back\usermanage2.aspx" />
+    <Content Include="web\front\OrderSettlement.aspx" />
+    <Content Include="web\js\jquery-1.9.1.min.js" />
+    <Content Include="web\js\tableTemplate.js" />
+    <Content Include="Welcome.aspx" />
+    <Content Include="App_Themes\Green\Green.skin" />
+    <Content Include="App_Themes\Red\Red.skin" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dwzJs\dwz.accordion.js" />
+    <Content Include="dwzJs\dwz.ajax.js" />
+    <Content Include="dwzJs\dwz.alertMsg.js" />
+    <Content Include="dwzJs\dwz.barDrag.js" />
+    <Content Include="dwzJs\dwz.checkbox.js" />
+    <Content Include="dwzJs\dwz.combox.js" />
+    <Content Include="dwzJs\dwz.contextmenu.js" />
+    <Content Include="dwzJs\dwz.core.js" />
+    <Content Include="dwzJs\dwz.cssTable.js" />
+    <Content Include="dwzJs\dwz.database.js" />
+    <Content Include="dwzJs\dwz.datepicker.js" />
+    <Content Include="dwzJs\dwz.dialog.js" />
+    <Content Include="dwzJs\dwz.dialogDrag.js" />
+    <Content Include="dwzJs\dwz.drag.js" />
+    <Content Include="dwzJs\dwz.effects.js" />
+    <Content Include="dwzJs\dwz.history.js" />
+    <Content Include="dwzJs\dwz.navTab.js" />
+    <Content Include="dwzJs\dwz.pagination.js" />
+    <Content Include="dwzJs\dwz.panel.js" />
+    <Content Include="dwzJs\dwz.print.js" />
+    <Content Include="dwzJs\dwz.regional.zh.js" />
+    <Content Include="dwzJs\dwz.resize.js" />
+    <Content Include="dwzJs\dwz.scrollCenter.js" />
+    <Content Include="dwzJs\dwz.sortDrag.js" />
+    <Content Include="dwzJs\dwz.stable.js" />
+    <Content Include="dwzJs\dwz.switchEnv.js" />
+    <Content Include="dwzJs\dwz.tab.js" />
+    <Content Include="dwzJs\dwz.taskBar.js" />
+    <Content Include="dwzJs\dwz.theme.js" />
+    <Content Include="dwzJs\dwz.tree.js" />
+    <Content Include="dwzJs\dwz.ui.js" />
+    <Content Include="dwzJs\dwz.util.date.js" />
+    <Content Include="dwzJs\dwz.validate.method.js" />
+    <Content Include="dwzJs\dwz_min.js" />
+    <Content Include="dwzJs\jquery-1.7.1.js" />
+    <Content Include="dwzJs\jquery.bgiframe.js" />
+    <Content Include="dwzJs\jquery.cookie.js" />
+    <Content Include="dwzJs\jquery.easing.1.3.js" />
+    <Content Include="dwzJs\jquery.validate.js" />
+    <Content Include="dwzJs\speedup.js" />
+    <Content Include="dwzThemes\css\core.css" />
+    <Content Include="dwzThemes\css\ieHack.css" />
+    <Content Include="dwzThemes\css\login.css" />
+    <Content Include="dwzThemes\css\print.css" />
+    <Content Include="dwzThemes\css\superTables_compressed.css" />
+    <Content Include="dwzThemes\default\images\accordion\accordion.png" />
+    <Content Include="dwzThemes\default\images\account_info_bg.png" />
+    <Content Include="dwzThemes\default\images\alert\alertpanel.png" />
+    <Content Include="dwzThemes\default\images\alert\alertpanel_icon.png" />
+    <Content Include="dwzThemes\default\images\button\button_s.png" />
+    <Content Include="dwzThemes\default\images\button\imgX.gif" />
+    <Content Include="dwzThemes\default\images\dialog\dialogpanel.png" />
+    <Content Include="dwzThemes\default\images\dialog\dialogpanel_icon.png" />
+    <Content Include="dwzThemes\default\images\form\input_bg.png" />
+    <Content Include="dwzThemes\default\images\form\input_bt.png" />
+    <Content Include="dwzThemes\default\images\grid\grid.png" />
+    <Content Include="dwzThemes\default\images\grid\resizeCol.png" />
+    <Content Include="dwzThemes\default\images\grid\tableth.png" />
+    <Content Include="dwzThemes\default\images\header_bg.png" />
+    <Content Include="dwzThemes\default\images\header_bg1.png" />
+    <Content Include="dwzThemes\default\images\header_bg_2.png" />
+    <Content Include="dwzThemes\default\images\icon.png" />
+    <Content Include="dwzThemes\default\images\layout\taskbar.png" />
+    <Content Include="dwzThemes\default\images\layout\taskbar_control.png" />
+    <Content Include="dwzThemes\default\images\layout\taskbar_icon.png" />
+    <Content Include="dwzThemes\default\images\layout\toggleSidebar.png" />
+    <Content Include="dwzThemes\default\images\listLine.png" />
+    <Content Include="dwzThemes\default\images\login_bg.png" />
+    <Content Include="dwzThemes\default\images\login_content_bg.png" />
+    <Content Include="dwzThemes\default\images\login_header_bg.png" />
+    <Content Include="dwzThemes\default\images\login_list.png" />
+    <Content Include="dwzThemes\default\images\login_sub.png" />
+    <Content Include="dwzThemes\default\images\logo - 副本.png" />
+    <Content Include="dwzThemes\default\images\logo.png" />
+    <Content Include="dwzThemes\default\images\logo2.png" />
+    <Content Include="dwzThemes\default\images\logo_1.png" />
+    <Content Include="dwzThemes\default\images\menu\menu.png" />
+    <Content Include="dwzThemes\default\images\order_down.gif" />
+    <Content Include="dwzThemes\default\images\order_up.gif" />
+    <Content Include="dwzThemes\default\images\pageHeader_bg.png" />
+    <Content Include="dwzThemes\default\images\panel\panel.png" />
+    <Content Include="dwzThemes\default\images\panel\panel_icon.png" />
+    <Content Include="dwzThemes\default\images\progressBar\progressBar_l.gif" />
+    <Content Include="dwzThemes\default\images\progressBar\progressBar_m.gif" />
+    <Content Include="dwzThemes\default\images\progressBar\progressBar_s.gif" />
+    <Content Include="dwzThemes\default\images\search-bg.gif" />
+    <Content Include="dwzThemes\default\images\search-bt.gif" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_c_c.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_c_l.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_c_r.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_f_c.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_f_l.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_f_r.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_h_c.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_h_l.png" />
+    <Content Include="dwzThemes\default\images\shadow\shadow_h_r.png" />
+    <Content Include="dwzThemes\default\images\tabs\tabscontrol.png" />
+    <Content Include="dwzThemes\default\images\tabs\tabspage.png" />
+    <Content Include="dwzThemes\default\images\tabs\tabspage_icon.png" />
+    <Content Include="dwzThemes\default\images\tabs\tabspanel.png" />
+    <Content Include="dwzThemes\default\images\themeButton.png" />
+    <Content Include="dwzThemes\default\images\tree\check.png" />
+    <Content Include="dwzThemes\default\images\tree\folder.png" />
+    <Content Include="dwzThemes\default\images\tree\tree.png" />
+    <Content Include="dwzThemes\default\style.css" />
+    <Content Include="dwzThemes\green\images\accordion\accordion.png" />
+    <Content Include="dwzThemes\green\images\account_info_bg.png" />
+    <Content Include="dwzThemes\green\images\alert\alertpanel.png" />
+    <Content Include="dwzThemes\green\images\alert\alertpanel_icon.png" />
+    <Content Include="dwzThemes\green\images\button\button_s.png" />
+    <Content Include="dwzThemes\green\images\dialog\dialogpanel.png" />
+    <Content Include="dwzThemes\green\images\dialog\dialogpanel_icon.png" />
+    <Content Include="dwzThemes\green\images\form\input_bg.png" />
+    <Content Include="dwzThemes\green\images\form\input_bt.png" />
+    <Content Include="dwzThemes\green\images\grid\grid.png" />
+    <Content Include="dwzThemes\green\images\grid\resizeCol.png" />
+    <Content Include="dwzThemes\green\images\grid\tableth.png" />
+    <Content Include="dwzThemes\green\images\header_bg.png" />
+    <Content Include="dwzThemes\green\images\layout\toggleSidebar.png" />
+    <Content Include="dwzThemes\green\images\listLine.png" />
+    <Content Include="dwzThemes\green\images\logo.png" />
+    <Content Include="dwzThemes\green\images\pageHeader_bg.png" />
+    <Content Include="dwzThemes\green\images\panel\panel.png" />
+    <Content Include="dwzThemes\green\images\panel\panel_icon.png" />
+    <Content Include="dwzThemes\green\images\tabs\tabscontrol.png" />
+    <Content Include="dwzThemes\green\images\tabs\tabspage.png" />
+    <Content Include="dwzThemes\green\images\tabs\tabspage_icon.png" />
+    <Content Include="dwzThemes\green\images\tabs\tabspanel.png" />
+    <Content Include="dwzThemes\green\images\tree\tree.png" />
+    <Content Include="dwzThemes\green\style.css" />
+    <Content Include="dwzThemes\purple\images\accordion\accordion.png" />
+    <Content Include="dwzThemes\purple\images\account_info_bg.png" />
+    <Content Include="dwzThemes\purple\images\alert\alertpanel.png" />
+    <Content Include="dwzThemes\purple\images\alert\alertpanel_icon.png" />
+    <Content Include="dwzThemes\purple\images\button\button_s.png" />
+    <Content Include="dwzThemes\purple\images\dialog\dialogpanel.png" />
+    <Content Include="dwzThemes\purple\images\dialog\dialogpanel_icon.png" />
+    <Content Include="dwzThemes\purple\images\form\input_bg.png" />
+    <Content Include="dwzThemes\purple\images\form\input_bt.png" />
+    <Content Include="dwzThemes\purple\images\grid\grid.png" />
+    <Content Include="dwzThemes\purple\images\grid\resizeCol.png" />
+    <Content Include="dwzThemes\purple\images\grid\tableth.png" />
+    <Content Include="dwzThemes\purple\images\header_bg.png" />
+    <Content Include="dwzThemes\purple\images\layout\taskbar.png" />
+    <Content Include="dwzThemes\purple\images\layout\taskbar_control.png" />
+    <Content Include="dwzThemes\purple\images\layout\taskbar_icon.png" />
+    <Content Include="dwzThemes\purple\images\layout\toggleSidebar.png" />
+    <Content Include="dwzThemes\purple\images\login_bg.png" />
+    <Content Include="dwzThemes\purple\images\login_content_bg.png" />
+    <Content Include="dwzThemes\purple\images\login_header_bg.png" />
+    <Content Include="dwzThemes\purple\images\login_list.png" />
+    <Content Include="dwzThemes\purple\images\menu\menu.png" />
+    <Content Include="dwzThemes\purple\images\pageHeader_bg.png" />
+    <Content Include="dwzThemes\purple\images\panel\panel.png" />
+    <Content Include="dwzThemes\purple\images\panel\panel_icon.png" />
+    <Content Include="dwzThemes\purple\images\progressBar\progressBar_l.gif" />
+    <Content Include="dwzThemes\purple\images\progressBar\progressBar_m.gif" />
+    <Content Include="dwzThemes\purple\images\progressBar\progressBar_s.gif" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_c_c.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_c_l.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_c_r.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_f_c.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_f_l.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_f_r.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_h_c.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_h_l.png" />
+    <Content Include="dwzThemes\purple\images\shadow\shadow_h_r.png" />
+    <Content Include="dwzThemes\purple\images\tabs\tabscontrol.png" />
+    <Content Include="dwzThemes\purple\images\tabs\tabspage.png" />
+    <Content Include="dwzThemes\purple\images\tabs\tabspage_icon.png" />
+    <Content Include="dwzThemes\purple\images\tabs\tabspanel.png" />
+    <Content Include="dwzThemes\purple\images\tree\check.png" />
+    <Content Include="dwzThemes\purple\images\tree\folder.png" />
+    <Content Include="dwzThemes\purple\images\tree\tree.png" />
+    <Content Include="dwzThemes\purple\style.css" />
+    <Content Include="dwzThemes\silver\images\accordion\accordion.png" />
+    <Content Include="dwzThemes\silver\images\account_info_bg.png" />
+    <Content Include="dwzThemes\silver\images\alert\alertpanel.png" />
+    <Content Include="dwzThemes\silver\images\alert\alertpanel_icon.png" />
+    <Content Include="dwzThemes\silver\images\button\button_s.png" />
+    <Content Include="dwzThemes\silver\images\dialog\dialogpanel.png" />
+    <Content Include="dwzThemes\silver\images\dialog\dialogpanel_icon.png" />
+    <Content Include="dwzThemes\silver\images\form\input_bg.png" />
+    <Content Include="dwzThemes\silver\images\form\input_bt.png" />
+    <Content Include="dwzThemes\silver\images\grid\grid.png" />
+    <Content Include="dwzThemes\silver\images\grid\resizeCol.png" />
+    <Content Include="dwzThemes\silver\images\grid\tableth.png" />
+    <Content Include="dwzThemes\silver\images\header_bg.png" />
+    <Content Include="dwzThemes\silver\images\layout\taskbar.png" />
+    <Content Include="dwzThemes\silver\images\layout\taskbar_control.png" />
+    <Content Include="dwzThemes\silver\images\layout\taskbar_icon.png" />
+    <Content Include="dwzThemes\silver\images\layout\toggleSidebar.png" />
+    <Content Include="dwzThemes\silver\images\listLine.png" />
+    <Content Include="dwzThemes\silver\images\logo.png" />
+    <Content Include="dwzThemes\silver\images\menu\menu.png" />
+    <Content Include="dwzThemes\silver\images\pageHeader_bg.png" />
+    <Content Include="dwzThemes\silver\images\panel\panel.png" />
+    <Content Include="dwzThemes\silver\images\panel\panel_icon.png" />
+    <Content Include="dwzThemes\silver\images\progressBar\progressBar_l.gif" />
+    <Content Include="dwzThemes\silver\images\progressBar\progressBar_m.gif" />
+    <Content Include="dwzThemes\silver\images\progressBar\progressBar_s.gif" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_c_c.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_c_l.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_c_r.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_f_c.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_f_l.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_f_r.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_h_c.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_h_l.png" />
+    <Content Include="dwzThemes\silver\images\shadow\shadow_h_r.png" />
+    <Content Include="dwzThemes\silver\images\tabs\tabscontrol.png" />
+    <Content Include="dwzThemes\silver\images\tabs\tabspage.png" />
+    <Content Include="dwzThemes\silver\images\tabs\tabspage_icon.png" />
+    <Content Include="dwzThemes\silver\images\tabs\tabspanel.png" />
+    <Content Include="dwzThemes\silver\images\tree\check.png" />
+    <Content Include="dwzThemes\silver\images\tree\folder.png" />
+    <Content Include="dwzThemes\silver\images\tree\tree.png" />
+    <Content Include="dwzThemes\silver\style.css" />
+    <Content Include="Global.asax" />
+    <Content Include="UserControl\Css\PagePart.css" />
+    <Content Include="UserControl\Css\PagePart1.css" />
+    <Content Include="UserControl\PagePart2.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="web\css\backlogin.css" />
+    <Content Include="web\css\backManage.css" />
+    <Content Include="web\css\bookInfoDisplay1.css" />
+    <Content Include="web\css\booksManage.css" />
+    <Content Include="web\css\bootstrap-datetimepicker.css" />
+    <Content Include="web\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="web\css\bootstrap-table.css" />
+    <Content Include="web\css\bootstrap.css" />
+    <Content Include="web\css\bootstrap.min.css" />
+    <Content Include="web\css\comment.css" />
+    <Content Include="web\css\find.css" />
+    <Content Include="web\css\index.css" />
+    <Content Include="web\css\nonecss.css" />
+    <Content Include="web\css\register.css" />
+    <Content Include="web\css\shoppingCart.css" />
+    <Content Include="web\css\usersManage.css" />
+    <Content Include="web\front\booksDetail.aspx" />
+    <Content Include="web\front\FindPassword.aspx" />
+    <Content Include="web\front\Index.aspx" />
+    <Content Include="web\front\None.aspx" />
+    <Content Include="web\front\register.aspx" />
+    <Content Include="web\images\account_icon2.png" />
+    <Content Include="web\images\addGreenButton.png" />
+    <Content Include="web\images\add_button.png" />
+    <Content Include="web\images\back_background.png" />
+    <Content Include="web\images\back_background2.png" />
+    <Content Include="web\images\blue_button.png" />
+    <Content Include="web\images\book1.png" />
+    <Content Include="web\images\book2.png" />
+    <Content Include="web\images\book3.png" />
+    <Content Include="web\images\book4.png" />
+    <Content Include="web\images\book5.png" />
+    <Content Include="web\images\book6.png" />
+    <Content Include="web\images\book7.png" />
+    <Content Include="web\images\bookInfoDisplay.png" />
+    <Content Include="web\images\book_background.png" />
+    <Content Include="web\images\book_background2.png" />
+    <Content Include="web\images\buy_button.png" />
+    <Content Include="web\images\cancelBuy.png" />
+    <Content Include="web\images\cancel_button.png" />
+    <Content Include="web\images\cancel_button2.png" />
+    <Content Include="web\images\cancel_button3.png" />
+    <Content Include="web\images\confirmBuy.png" />
+    <Content Include="web\images\confirmMenu.png" />
+    <Content Include="web\images\confirm_button.png" />
+    <Content Include="web\images\deletbutton.png" />
+    <Content Include="web\images\findpassword_background.png" />
+    <Content Include="web\images\front_background.png" />
+    <Content Include="web\images\front_background2.png" />
+    <Content Include="web\images\goodsBox.png" />
+    <Content Include="web\images\goods_button.png" />
+    <Content Include="web\images\gray_button.png" />
+    <Content Include="web\images\login_background.png" />
+    <Content Include="web\images\login_button.png" />
+    <Content Include="web\images\login_button2.png" />
+    <Content Include="web\images\main_picture.jpg" />
+    <Content Include="web\images\manage_button.png" />
+    <Content Include="web\images\password_icon2.png" />
+    <Content Include="web\images\register_background.png" />
+    <Content Include="web\images\register_button.png" />
+    <Content Include="web\images\search-icon.png" />
+    <Content Include="web\images\search_background.png" />
+    <Content Include="web\images\search_button.png" />
+    <Content Include="web\images\shoppingCart_background.png" />
+    <Content Include="web\images\star.png" />
+    <Content Include="web\images\table_background.jpg" />
+    <Content Include="web\images\updatebutton.png" />
+    <Content Include="web\images\userInfoBox.png" />
+    <Content Include="web\images\viewbutton.png" />
+    <Content Include="web\images\write_box1.png" />
+    <Content Include="web\images\write_Box2.png" />
+    <Content Include="web\js\backlogin.js" />
+    <Content Include="web\js\backmanage.js" />
+    <Content Include="web\js\bookDetails.js" />
+    <Content Include="web\js\booksManage.js" />
+    <Content Include="web\js\bootstrap-datetimepicker.js" />
+    <Content Include="web\js\bootstrap-datetimepicker.zh-CN.js" />
+    <Content Include="web\js\bootstrap.js" />
+    <Content Include="web\js\bootstrap.min.js" />
+    <Content Include="web\js\index.js" />
+    <Content Include="web\js\jquery-1.11.1.js" />
+    <Content Include="web\js\jquery-3.1.1.min.js" />
+    <Content Include="web\js\login.js" />
+    <Content Include="web\js\none.js" />
+    <Content Include="web\js\register.js" />
+    <Content Include="web\js\userManage.js" />
+    <Content Include="web\loginFail.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LeftMenu.aspx.cs">
+      <DependentUpon>LeftMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeftMenu.aspx.designer.cs">
+      <DependentUpon>LeftMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlDBConnect.cs" />
+    <Compile Include="UserControl\PagePart2.ascx.cs">
+      <DependentUpon>PagePart2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\PagePart2.ascx.designer.cs">
+      <DependentUpon>PagePart2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\backLogin.aspx.cs">
+      <DependentUpon>backLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\backLogin.aspx.designer.cs">
+      <DependentUpon>backLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\BookAddOrEdit.aspx.cs">
+      <DependentUpon>BookAddOrEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\BookAddOrEdit.aspx.designer.cs">
+      <DependentUpon>BookAddOrEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\booksmanage.aspx.cs">
+      <DependentUpon>booksmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\booksmanage.aspx.designer.cs">
+      <DependentUpon>booksmanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\OrderAddOrEdit.aspx.cs">
+      <DependentUpon>OrderAddOrEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\OrderAddOrEdit.aspx.designer.cs">
+      <DependentUpon>OrderAddOrEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\ordermanage.aspx.cs">
+      <DependentUpon>ordermanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\ordermanage.aspx.designer.cs">
+      <DependentUpon>ordermanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\UserAddOrEdit.aspx.cs">
+      <DependentUpon>UserAddOrEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\UserAddOrEdit.aspx.designer.cs">
+      <DependentUpon>UserAddOrEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\back\usermanage2.aspx.cs">
+      <DependentUpon>usermanage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\back\usermanage2.aspx.designer.cs">
+      <DependentUpon>usermanage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\booksDetail.aspx.cs">
+      <DependentUpon>booksDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\booksDetail.aspx.designer.cs">
+      <DependentUpon>booksDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\FindPassword.aspx.cs">
+      <DependentUpon>FindPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\FindPassword.aspx.designer.cs">
+      <DependentUpon>FindPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\None.aspx.cs">
+      <DependentUpon>None.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\None.aspx.designer.cs">
+      <DependentUpon>None.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\OrderSettlement.aspx.cs">
+      <DependentUpon>OrderSettlement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\OrderSettlement.aspx.designer.cs">
+      <DependentUpon>OrderSettlement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\front\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\front\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\loginFail.aspx.cs">
+      <DependentUpon>loginFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\loginFail.aspx.designer.cs">
+      <DependentUpon>loginFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="dwzJs\custom\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookShop.BLL\BookShop.BLL.csproj">
+      <Project>{d7a19375-3d31-40c2-985b-79c967411ffb}</Project>
+      <Name>BookShop.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookShop.Model\BookShop.Model.csproj">
+      <Project>{49603e6e-837b-4ae5-aa25-a0a728a48701}</Project>
+      <Name>BookShop.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12864</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12864/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

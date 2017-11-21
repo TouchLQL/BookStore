@@ -1,0 +1,113 @@
+﻿/***全局***/
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{
+border:none;padding:0;
+}
+/**基本按钮样式***/
+input.btn
+{
+    text-align:center;
+    font-size: 12px;
+    cursor:pointer;
+    letter-spacing:0.1em;
+    background: url("image/button/button_nor.gif") repeat-x left top;
+    width:auto;
+    height:19px;
+    overflow:visible;
+    padding-top:0px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #CCC;
+    color:Black;
+}
+input.btn:hover
+{
+    background: url("image/button/button_nor_hover.gif") repeat-x left top;
+}
+/***蓝紫色按钮样式**/
+input.btnBlue, input.btnBlue1
+{
+    text-align:center;
+    font-size: 12px;
+    cursor:pointer;
+    letter-spacing:0.1em;
+    background: url("image/button/topic.bg.256.png");
+    background-position:0 -420px;
+    width:73px;
+    height:23px;
+    overflow:visible;
+    padding-top:0px;
+    border:0px;
+    color:Black; 
+}
+input.btnBlue:hover, input.btnBlue1:hover
+{
+    color:Blue;
+}
+input.btnBlue1
+{
+    background-position:0 -30px;
+    width:88px;
+}
+/****深蓝按钮****/
+input.btnDeepBlue
+{
+    text-align:center;
+    font-size: 12px;
+    cursor:pointer;
+    letter-spacing:0.1em;
+    background: url("image/button/btnBlue_bg.gif") repeat-x left top;
+    width:auto;
+    height:20px;
+    overflow:visible;
+    padding-top:0px;
+    padding-left:10px;
+    padding-right:10px;
+    outline:1px solid #4D93EA;
+    border:1px solid #C6DAF4!important;
+    color:White;
+} 
+input.btnDeepBlue:hover
+{
+    background: url("image/button/btnBlue_hover.gif") repeat-x left top;
+}
+/*****链接按钮*****/
+.divBtn1
+{
+    color: black;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0 5px 0 0;
+    text-decoration: none;
+    background-image: url(image/grid.png);
+    padding:0 0 0 5px;
+    background-position: 0 -100px;
+}
+.divBtn1 a
+{
+    color: black;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0 5px 0 0;
+    text-decoration: none;
+    background-image: url(image/grid.png);
+    background-position: 100% -150px;
+    
+}
+.divBtn1 span
+{
+    float: left;
+    display: block;
+    overflow: hidden;
+    height: 23px;
+    padding: 0 0 0 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
+.divBtn1 .add span{ background: url(image/grid.png) no-repeat; background-position: 0 -696px; }
+.divBtn1 .save span{ background: url(image/ico_tablehead.gif) no-repeat; background-position: -4px -40px; }
+.divBtn1 .back span{ background: url(image/ico_tablehead.gif) no-repeat; background-position: -4px 2px; }

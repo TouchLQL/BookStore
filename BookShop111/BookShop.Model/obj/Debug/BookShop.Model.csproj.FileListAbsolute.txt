@@ -1,0 +1,10 @@
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.Model\bin\Debug\BookShop.Model.dll
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.Model\bin\Debug\BookShop.Model.pdb
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.csprojResolveAssemblyReference.cache
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.dll
+D:\学习\高级c#\高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.pdb
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.Model\bin\Debug\BookShop.Model.dll
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.Model\bin\Debug\BookShop.Model.pdb
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.csprojResolveAssemblyReference.cache
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.dll
+D:\学习\高级c#\11403060109刘敏高级c#大作业\BookShop\BookShop.Model\obj\Debug\BookShop.Model.pdb

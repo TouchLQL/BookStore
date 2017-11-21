@@ -1,0 +1,66 @@
+﻿body {
+     background:url(../images/front_background2.png) no-repeat;
+}
+
+		#bookPictures {
+			float: left;
+			width: 800px;
+			margin-top: 58px;
+		}
+		.img2 {
+		 position: absolute;
+		 top: 180px;
+		 left: 450px;
+		 width:400px;
+		 height: 360px;
+		}
+		#img3 {
+		 position: absolute;
+		 width:25px;
+		 top: 45px;
+		 left: 600px;
+		}
+		#font {
+			font-size:14px;
+			color:#ffffff;
+		}
+		.fontStyle1 {
+		 position: absolute;
+		 top: 46px;
+		 left:1180px;
+		}
+		.fontStyle2 {
+		 position: absolute;
+		 top: 46px;
+		 left:1230px;
+		}
+		.font2 {
+		 color:#0593d3;	
+		 font-family:微软雅黑;	
+		 font-size:30px;
+		 position: absolute;
+		 top: 50px;
+		 left:450px;
+		}
+          #loginButton {
+           position:absolute;
+           top: 240px;
+           left: 28px;
+        }
+
+		a:link {
+		 text-decoration:none;
+		 color:#333333;
+		}    /* 未被访问的链接 */
+		a:visited {
+		 text-decoration:none;
+		 color:#333333;
+		 } /* 已被访问的链接 */
+		a:hover {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }   /* 鼠标指针移动到链接上 */
+		a:active {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }  /* 正在被点击的链接 */

@@ -1,0 +1,33 @@
+﻿input.input-text /***样式一***/
+{
+    border:1px solid #66FFCC;
+    padding-left:2px;
+    font-family:宋体;
+    font-size:12px;
+    height:15px;
+    line-height:15px;
+    color:Black;
+}
+input.input-text:hover
+{
+    background:url(image/button/text_nor.gif) repeat-x left bottom;
+}
+
+input.text/***样式二***/
+{
+    height:20px;
+    line-height:20px;
+    color:#333;
+    padding-left:3px;
+    border:1px solid #CC99FF;
+    /*background-color:HighlightText;*/
+}
+input.text:hover
+{
+    background:url(image/button/text_nor.gif) repeat-x left bottom;
+    border:1px solid Gray;
+}
+select, input
+{
+    border:1px solid #66FFCC;
+}

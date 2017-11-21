@@ -1,0 +1,85 @@
+﻿/***********模板1:默认模板**************/
+table.Fromtable
+{
+    background-color:White;
+    font-family:font-family: 宋体, 微软雅黑, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border-collapse:collapse;
+    border:1px solid #B0CBE0;
+}
+table.Fromtable th.H
+{
+    font-weight:900;
+    height:30px;
+    font-size:12px;
+    line-height:30px;
+    text-align:left;
+    padding-left:20px;
+    letter-spacing:2px;
+    border:1px solid #B0CBE0;
+    background-color:#F3F5F8;
+}
+table.Fromtable th.H span
+{
+    background:url(image/ico_tablehead.gif) no-repeat -5px -78px;
+    padding-left:18px;
+    display:block;
+}
+table.Fromtable td.K
+{
+    font-size:12px;
+    text-align:right;
+    padding:6px;
+    border:1px solid #B0CBE0;
+    background-color:#F3F5F8;
+}
+table.Fromtable td.V
+{
+    font-size:12px;
+    padding:6px;
+    border:1px solid #B0CBE0;
+    background-color:#F3F5F8;
+}
+table.Fromtable td.tBtn
+{
+    padding:6px;
+    border:1px solid #B0CBE0;
+    background-color:#F3F5F8;
+}
+/***********模板2：无边框**************/
+table.Fromtable1
+{
+    margin-left:10px;
+    background-color:White;
+    font-family: Arial, sans-serif, 宋体, 微软雅黑, Helvetica;
+    font-size:12px;
+    border:0px;
+}
+table.Fromtable1 td.Error
+{
+    padding-left:6px;
+}
+table.Fromtable1 th.H
+{
+    font-weight:900;
+    height:30px;
+    font-size:12px;
+    line-height:30px;
+    text-align:left;
+    letter-spacing:2px;
+}
+table.Fromtable1 td.K
+{
+    font-size:12px;
+    text-align:left;
+    padding:6px;
+}
+table.Fromtable1 td.V
+{
+    font-size:12px;
+    padding:6px;
+}
+table.Fromtable1 td.tBtn
+{
+    padding:6px;
+}

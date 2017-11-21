@@ -1,0 +1,46 @@
+﻿  .PagePart
+  {
+      font-size:12px;
+      font-family: 宋体, 微软雅黑, Arial, Helvetica, sans-serif;
+  }
+  .PagePart input.txt_now
+  {
+      border:1px solid #c2e1ef;
+      font-size:12px;
+      width:30px;
+      height:14px;
+      line-height:14px; 
+      color: #2D3E5C;
+      background-color:White;
+      padding-left:2px;
+      padding-right:2px;
+   }
+   .PagePart a
+  {
+      font-size:12px;
+      font-weight:500;
+      margin-left:3px;
+  }
+   .PagePart a.myPage
+   {
+      TEXT-DECORATION:none;
+      padding-top:1px;
+      padding-bottom:1px;
+      padding-left:5px;
+      padding-right:5px;
+      border:1px solid;
+      border-color:#c2e1ef;
+      background-color:ButtonFace;
+      font-size:12px;
+      font-weight:500;
+      color:#006666;
+      cursor:pointer;
+   }
+   .PagePart a.myPage:hover
+   {
+       background-color:#FF99CC;
+   }
+   .PagePart a.active
+   {
+       color:Black;
+   }

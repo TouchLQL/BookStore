@@ -1,0 +1,216 @@
+﻿body {
+    background:url(../images/front_background2.png) no-repeat;
+}
+#bookMenu {
+			width: 200px;
+			float: left;
+			margin-top: 90px;
+			margin-left: 60px;
+		}
+		#bookPictures {
+			float: left;
+            width: 850px;
+            margin-top: 56px;
+            /*border: #ccc solid 1px;*/
+            height: 722px;
+		}
+		.img2 {
+		 width:160px;
+		 height: 230px;
+		}
+		#passwork{
+		 position: absolute;
+		 border-radius:10px;
+		 background-color:white;
+		 width:280px;
+		 height:35px;
+		 top: 40px;
+		 left: 350px;
+		}
+		
+		.img3 {
+		background-color:white;
+		 position: absolute;
+		 width:25px;
+		 top: 45px;
+		 left: 600px;
+		}
+		.font {
+			font-size:14px;
+			color:#ffffff;
+		}
+		.fontStyle1 {
+		 position: absolute;
+		 top: 46px;
+		 left:1180px;
+		}
+		.fontStyle2 {
+		 position: absolute;
+		 top: 46px;
+		 left:1230px;
+		}
+		a:link {
+		 text-decoration:none;
+		 color:#333333;
+		}    /* 未被访问的链接 */
+		a:hover {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }   /* 鼠标指针移动到链接上 */
+		a:active {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }  /* 正在被点击的链接 */
+		 #searchbox {
+		  color: gray;
+		  position:absolute;
+		  left:400px;
+		  top:45px;
+		  
+		 }
+		#loadButton {
+            width: 148px;
+            margin:auto;
+            margin-top:250px;
+        }
+        #alertBox {
+            width: 350px;
+            height: 329px;
+            background-image: url("../images/login_background.png"); 
+            position: fixed;
+            top: 100px;
+            left: 500px;
+            display: none;
+            z-index:2;
+        }
+        #curtain {
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background-color: rgba(20, 19, 22, 0.97);
+            opacity: 0.3;
+            z-index:1;
+            display: none;
+        }
+
+        #loginButton {
+           position:absolute;
+           top: 240px;
+           left: 28px;
+        }
+
+        #cancelButton {
+            float: right;
+            margin-top: 240px;
+            margin-left: 0px;
+        }
+        .inputStyle1{
+	        position: absolute;
+			border-color:#0593d3;
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top:104px;
+			left: 70px;
+		}
+        .inputStyle2{
+       		position: absolute;
+			border-color:#0593d3;			
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top: 162px;
+			left: 70px;
+        }
+        .searchbook{
+                margin-top: 36px;
+                margin-left: 420px;
+                height: 21px;
+        }
+        ul{
+            list-style:none;
+        }
+        .listyle {
+            margin-bottom:20px;
+        }
+        .listyle1{
+            margin-bottom:20px;
+        }
+        .picture{
+            /*border:solid #ccc 1px;*/
+            height:320px;
+            width:274px;
+            float:left;
+        }
+        .piclist {
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 50px;
+                    width: 110px;
+        }
+        .font2{
+                position: absolute;
+                margin-top: 260px;
+                margin-left: 60px;
+        }
+        .bookname{
+                position: absolute;
+                /* margin-top: 283px; */
+                /* margin-left: 189px; */
+                width: 110px;
+        }
+        .price{
+            position: absolute;
+            margin-top: 260px;
+            margin-left: 189px;
+        }
+        .listyle:hover{
+            cursor:pointer;
+            
+            color:blue;
+        }
+        .tishi{
+             position: absolute;
+             margin-left: 60px;
+        }
+        .close{
+            position: absolute;
+            top: 0px;
+            left: 176px;
+        }
+        .forget{
+             position: absolute;
+             top: 216px;
+             left: 58px;
+             color:red;
+             font-size:12px;
+        }
+       .zhuce{
+           position: absolute;
+             top: 216px;
+             left: 260px;
+             color:blue;
+             font-size:12px;
+       }
+       .h-login{
+           color:white;
+           position:absolute;
+           top:48px;
+           left:1124px;
+       }
+       .h-login:hover{
+           color:#333333;
+           cursor:pointer;
+       }
+
+        .h-login2{
+           color:#000;
+           position:absolute;
+           top:48px;
+           left:1130px;
+       }
+        .text1 figcaption p{background:#FFF;color:#333; margin:5px;transform:translate(0px,0px)}
+        .text1 figcaption p:nth-of-type(1){transition-delay:0.15s}
+        .text1:hover figcaption p{transform:translate(0px,-50px)}
+
+

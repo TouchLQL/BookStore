@@ -1,0 +1,71 @@
+﻿*{margin:0px;padding:0px; }
+#page { display:block; background-color:#E5EDEF; overflow:hidden;float:left; width:100%;}
+.pageHeader { background:url(image/pageHeader_bg.png) repeat-x;display:block;font-size:12px; overflow:auto; padding:5px; position:relative;border-top:1px solid #D0D0D0;margin-bottom:4px;border-bottom:1px solid #B8D0D6;}
+.searchBar .searchContent td{font-size:12px; padding-right:20px; white-space:nowrap; height:25px}
+.pageContent {clear:both; display:block;overflow:auto;position:relative;}
+
+.panelBar { display:block; overflow:hidden; height:25px; border-top:1px solid #B8D0D6;  background-repeat:repeat-x;background-image:url(image/grid.png); }
+.panelBar ul { padding:1px;}
+.panelBar li { float:left; display:block; overflow:hidden; height:23px; padding:0 0 0 5px;}
+.panelBar li:hover {background-image:url(image/grid.png);  background-position:0 -100px;}
+.panelBar li:hover a {background-image:url(image/grid.png);  background-position:100% -150px;}
+.panelBar .toolBar li, .panelBar .toolBar li:hover { padding:0 0 0 5px; background-position:0 -100px;}
+.panelBar .toolBar li.line{ background:url(image/grid.png) no-repeat; display: block;overflow: hidden;width: 12px;padding: 0;text-indent: -1000px;background-position: 5px -200px;}
+.panelBar .toolBar a, .panelBar .toolBar li:hover a { color:Black; float:left; display:block; overflow:hidden; padding:0 5px 0 0; text-decoration:none; background-position:100% -150px;}
+.panelBar .toolBar span, .panelBar .toolBar li:hover span { background:url(image/grid.png) no-repeat; float:left; display:block; overflow:hidden; height:23px; padding:0 0 0 20px; line-height:23px; cursor:pointer;}
+.panelBar .toolBar a.add span { background-position:0 -696px;}
+.panelBar .toolBar a.delete span { background-position:0 -746px;}
+.panelBar .toolBar a.edit span { background-position:0 -796px;}
+.panelBar .toolBar a.icon span { background-position:0 -846px;}
+.panelBar .pages { float:left; overflow:hidden; height:21px; padding:2px 5px;}
+.panelBar .pages span { float:left; line-height:21px;}
+.panelBar .pages select { float:left; margin:0 3px; font-size:12px;}
+
+.grid { display:block; overflow:hidden; width:100%; border-width:0 1px; position:relative;background:white}
+
+.grid .gridHeader {  display:block; overflow:hidden; width:auto;border-top:1px solid #D0D0D0;}
+.grid .gridHeader { }
+.grid .gridHeader th { background:url(image/tableth.png) repeat-x; padding:0 3px; font-weight:normal; border-right:1px solid #D0D0D0;   vertical-align:top; white-space:nowrap; line-height:21px; cursor:default;}
+.grid .gridHeader th div{ display:block; overflow:hidden; height:21px; white-space:nowrap; line-height:21px;}
+.grid .gridHeader th:hover{ background-position:0 -50px;}
+.grid .gridThead {background:url(image/tableth.png) repeat-x; border-bottom:1px solid #D0D0D0;}
+
+.grid .gridScroller { display:block; overflow:auto; position:relative;}
+.grid .gridTbody { }
+.grid table { font-size:12px; border-collapse:collapse;}
+.grid table tr.hover{ background-color:#FFED97; color:Red;}
+.grid table tr.selected{ border-color: #B8D0D6;background: #7CC5E5;color:White;}
+.grid .gridTbody td { border-right:solid 1px #ededed;  overflow:hidden; padding:0 3px; font-weight:normal; border-bottom:solid 1px #ededed; vertical-align:middle; line-height:21px;}
+.grid .gridTbody td.selected{ background-color:#FFE153; }
+.grid .gridTbody td div { display:block; overflow:hidden; height:21px; white-space:nowrap; line-height:21px;}
+.grid .gridTbody td div a{line-height:21px;}
+
+.pagination {background-image:url(image/grid.png); float:right; padding-left:7px; background-position:0 -199px;}
+.pagination li, .pagination li:hover { padding:0 0 0 5px; background-position:0 -100px;}
+.pagination li:hover, .pagination li:hover a{ background-image:url(image/grid.png);}
+.pagination a, .pagination li:hover a, .pagination li span { color:Black; float:left; display:block; padding:0 5px 0 0; text-decoration:none; line-height:23px; background-position:100% -150px;}
+.pagination li a.selected{color:red; font-weight:bold;}
+.pagination span, .pagination li:hover span {  float:left; display:block; height:23px; line-height:23px; cursor:pointer;}
+
+.pagination li .first span, .panelBar li .previous span { background-image:url(image/grid.png); padding:0 0 0 10px;}
+.pagination li .next span, .panelBar li .last span { padding:0 10px 0 0;}
+.pagination li .first span { background-position:0 -244px;}
+.pagination li .previous span { background-position:0 -294px;}
+.pagination li .next span { background-image:url(image/grid.png); background-position:100% -344px;}
+.pagination li .last span { background-image:url(image/grid.png); background-position:100% -394px;}
+.pagination li .last { margin-right:5px;}
+
+.pagination li.disabled { background:none;}
+.pagination li.disabled span, .grid .pagination li.disabled a { background-position:0 100px; cursor:default;}
+.pagination li.disabled span span { color:#666;}
+.pagination li.disabled .first span { background-position:0 -444px;}
+.pagination li.disabled .previous span { background-position:0 -494px;}
+.pagination li.disabled .next span { background-position:100% -544px;}
+.pagination li.disabled .last span { background-position:100% -594px;}
+.pagination li.disabled .last { margin-right:5px;}
+
+.pagination li.jumpto { background-image:url(image/grid.png); padding:2px 2px 0 7px; background-position:0 -200px;}
+.pagination li.jumpto .textInput { float:left; width:30px; font-size:12px; padding:1px; border-color:#acaeaf;}
+.pagination li.jumpto .goto { background-image:url(image/grid.png); float:left; display:block; overflow:hidden; width:16px; height:19px; border:0; text-indent:-1000px; background-position:0 -650px; cursor:pointer;}
+
+

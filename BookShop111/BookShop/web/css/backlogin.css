@@ -1,0 +1,29 @@
+﻿body {
+    background-image:url(../images/book_background.png);
+}
+		input{
+			border-radius:5px;
+			background-color:transparent;
+		}
+		.input_style1{
+			 float:left;
+			 width:220px;
+			 height: 34px;
+			 margin-top: 250px;
+			 margin-left: 580px;
+			 border-color:white;
+		}
+		.input_style2{
+			 float:left;
+			 width:220px;
+			 height: 34px;
+			 margin-top: 270px;
+			 margin-left: -224px;
+		}
+		.img1{
+			 position:absolute;
+			 width:260px;
+			 height: 40px;
+			 top: 410px;
+			 left: 570px;
+		}

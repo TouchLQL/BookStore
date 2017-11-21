@@ -1,0 +1,11 @@
+﻿.gridTable{ border:1px solid #CCC;}
+.gridTable th, .gridTable td{ height:21px;font-size:12px;font-weight:500;border:1px solid #CCC;padding-left:3px;padding-right:3px;}
+.gridTable th{ background-color:ButtonFace;background:url('image/tableth.png') repeat-x left top;line-height:21px;}
+.gridTable th:hover{ background:url('image/tableth.png') repeat-x 0 -50px; }
+.gridTable th a, .gridTable td a{ font-weight:500;color:blue;}
+.gridTable th a:hover, .gridTable td a:hover{ color:red;}
+.gridTable tr.hover{ background:#FFED97; color:Red;}
+.gridTable tr.selected{ background-color:#7CC5E5; color:White;}
+.gridTable td.hover{background:#FFE153;}
+/**当Gridview不存在记录时候的样式*/
+.EmpteyGd{ padding-top:5px;padding-bottom:5px;text-align:center;font-weight:500;background-color:ButtonFace;}

@@ -1,0 +1,110 @@
+﻿/*|||||||||||||||||||||||全局||||||||||||||||||||||||||||*/
+*{margin:0px;padding:0px}
+BODY
+{
+    font-family: Arial, sans-serif, 宋体, 微软雅黑, Helvetica ;
+    color: #000;
+    font-size: 12px;
+    overflow-y:auto
+}
+table
+{
+    border-spacing:0px;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color:Red;
+}
+#swap
+{
+    height:25px;
+    clear: both;
+    text-align: left;
+    margin-bottom:5px;
+}
+#navi
+{
+    color: #293955;
+    height:25px;
+    line-height:25px;
+    padding-left:20px;
+    text-align: left;
+    background:url(image/icons.gif) no-repeat -48px 5px;
+}
+#content
+{
+    padding-left:2px;
+    padding-right:2px;
+}
+#mid
+{
+    padding-left:2px;
+    padding-right:2px;
+    margin:0px auto;
+}
+fieldset
+{
+    border:1px solid #CCC;
+    padding:5px;
+}
+fieldset:hover
+{
+    background-color:ButtonFace;
+}
+fieldset legend
+{
+    margin-left:0px;
+}
+/*翻页控件*/
+.PagePartDiv
+{
+    border:1px solid #CCC;
+    border-top:0px;padding:3px;
+    padding-top:3px;
+    padding-bottom:2px;
+    text-align:right;
+    height:100%;
+    overflow:auto;
+    background-color:white;
+}
+.PagePartDiv .PagePart
+{
+    float:right;
+}
+/***dialog***/
+.dialog .dialogHeader, .dialog .dialogHeader_r, .dialog .dialogHeader_c,
+.dialog .dialogFooter, .dialog .dialogFooter_r, .dialog .dialogFooter_c { background:url(image/dialogpanel.png) no-repeat;}
+.dialog .dialogHeader h1, .dialog .dialogHeader .close, .dialog .dialogHeader .maximize, .dialog .dialogHeader .restore, .dialog .dialogHeader .minimize, .resizable_f_r { background:url(image/dialogpanel_icon.png) no-repeat;}
+.dialog .dialogHeader h1 { color:#183152;}
+.dialog .dialogContent { border-color:#b8d0d6; background:#eef4f5;}
+
+.dialog { display:block; text-align:left; position:absolute; z-index:42;}
+.dialog .dialogHeader, .dialog .dialogHeader_r, .dialog .dialogHeader_c { display:block; overflow:hidden; height:28px;}
+.dialog .dialogHeader .close, .dialog .dialogHeader .maximize, .dialog .dialogHeader .restore, .dialog .dialogHeader .minimize { display:block; overflow:hidden; text-indent:-1000px; width:19px; height:19px; position:absolute; top:5px;}
+.dialog .dialogHeader h1 { display:block; overflow:hidden; height:28px; padding:0 5px 0 20px; line-height:28px; background-position:0 -450px;font-size:12px;}
+
+.dialog .dialogHeader { padding-left:5px; background-position:0 0; position:relative; cursor:move;}
+.dialog .dialogHeader_r { padding-right:5px; background-position:100% -50px;}
+.dialog .dialogHeader_c { padding:0; background-position:0 -100px; background-repeat:repeat-x;}
+
+.dialog .dialogHeader .close { background-position:0 0; right:4px;}
+.dialog .dialogHeader .close:hover { background-position:0 -50px;}
+.dialog .dialogHeader .maximize { background-position:0 -100px; right:23px;}
+.dialog .dialogHeader .maximize:hover { background-position:0 -150px;}
+.dialog .dialogHeader .restore { background-position:0 -200px; right:23px;}
+.dialog .dialogHeader .restore:hover { background-position:0 -250px;}
+.dialog .dialogHeader .minimize { background-position:0 -300px; right:42px;}
+.dialog .dialogHeader .minimize:hover { background-position:0 -350px;}
+.dialog .dialogContent { display:block; overflow:hidden; padding:5px 5px 1px 5px; border-style:solid; border-width:0 1px;}
+.dialog .panelFooter_r, .dialog .dialogFooter_c { display:block; overflow:hidden; height:5px;}
+.dialog .dialogFooter { padding-left:5px; background-position:0 -150px;}
+.dialog .dialogFooter_r { padding-right:5px; background-position:100% -200px;}
+.dialog .dialogFooter_c { padding:0; background-position:0 -250px; background-repeat:repeat-x;}
+
+.dialogProxy { opacity:0.8; filter:alpha(opacity=80);}
+
+.dialog .resizable_f_r { width:11px; height:11px; background-position:0 -400px;}

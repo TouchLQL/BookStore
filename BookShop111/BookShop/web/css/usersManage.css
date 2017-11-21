@@ -1,0 +1,54 @@
+﻿/*ul{
+    list-style:none;
+} 
+li{
+    float:left;
+    margin-right:10px;
+}
+a{
+    text-decoration:none;
+}*/
+     .btnBlue {
+            height: 21px;
+        }
+     .auto-style1 {
+            text-align: right;
+            width: 166px;
+        }
+        .divUser {
+            width:400px;
+            margin:auto;
+        }
+        .auto-style2 {
+            height: 50px;
+        }
+        .auto-style3 {
+            text-align: right;
+            width: 166px;
+            height: 46px;
+        }
+        .auto-style4 {
+            height: 46px;
+        }
+/*.toolBar li{
+    width:42px;
+    height:20px;
+    float:left;
+    display:block;
+    margin-right:10px;
+    color:#000;
+    background-color:#e1e1e1;
+    border-radius:2px;
+    text-align:center;
+    border :solid #a5a5a5 1px;
+    font-size:14px;
+}
+.toolBar li span{
+    color:#000;
+}
+.pagination{
+    float:right;
+}
+.textInput{
+    margin-right:10px;
+}*/

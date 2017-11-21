@@ -1,0 +1,210 @@
+﻿body {
+    background-image:url(../images/back_background.png);
+}
+#font {
+			font-size:14px;
+			color:#ffffff;
+		}
+		.fontStyle1 {
+			 position: absolute;
+			 top: 10px;
+			 left:1182px;
+		}
+		.fontStyle2 {
+			 position: absolute;
+			 top: 10px;
+			 left:1264px;
+		}
+		.fontStyle3 {
+			 position: absolute;
+			 top:-4px;
+			 left:930px;
+		}
+		table {
+			 border-collapse:collapse;
+			 position: absolute;
+			 top: 162px;
+			 left:251px;		 
+		}
+		table, td, th {
+			 border:1px solid #787878;
+			 padding:4px;
+			 width:1050px;
+	    }
+	    th
+	  	{
+		  	 background-color:#5dbf55;
+		 	 color:white;
+	  	}
+	    td,th{
+	    	 height:25px;
+	    	 text-align:center; /*设置水平居中*/
+             vertical-align:middle;/*设置垂直居中*/
+	    }
+	    .top_style{
+		     position: absolute;
+			 top: 140px;
+			 left:230px;
+	    }
+	    #select_style{
+	    	width:200px;
+	    	/*height:25px;*/
+	    }
+        .searchButton_style {
+            position: absolute;
+            width: 75px;
+            height: 25px;
+            top: 0px;
+            left: 580px;
+            margin-left: 20px;
+            /* margin-top: 10px; */
+            padding-top: -24px;
+        }
+	    #addButton_style {
+            /* position: absolute; */
+            width: 75px;
+            height: 25px;
+            /* top: 140px; */
+            /* left: 930px; */
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+	    #deletButton_style{
+		     position: absolute;
+		     width:75px;
+	    	 height:25px;
+			 top: 140px;
+			 left: 1030px;
+	    }
+	   #viewButton_style {
+            /* position: absolute; */
+            width: 75px;
+            height: 25px;
+            /* top: 140px; */
+            /* left: 1230px; */
+        }
+	    #updateButton_style {
+            /* position: absolute; */
+            width: 75px;
+            height: 25px;
+            /* top: 140px; */
+            /* left: 1130px; */
+        }
+		a:link {
+			 text-decoration:none;
+			 color:#333333;
+		}    /* 未被访问的链接 */
+		a:visited {
+			 text-decoration:none;
+			 color:#333333;
+		 } /* 已被访问的链接 */
+		a:hover {
+			 text-decoration:underline;
+			 color:#5dbf55;
+		 }   /* 鼠标指针移动到链接上 */
+		a:active {
+			 text-decoration:underline;
+			 color:#5dbf55;
+		 }  /* 正在被点击的链接 */
+		 .img1{
+			position: absolute;
+			 top:108px;
+			 left:0px;
+		}
+		.img2{
+			position: absolute;
+			 top:148px;
+			 left:0px;
+		}
+		#changeBox {
+        	width: 350px;
+        	height: 400px;
+        	background-image: url("/studentInfoSystem/images/write_Box2.png"); 
+        	position: absolute;
+            top: 100px;
+            left: 500px;
+            display: none;
+            z-index:2;
+        }
+        
+        #cancelButton {
+            float: left;
+           	margin-top: 30px;
+           	margin-left: 0px;
+        }
+        #confirmButton {
+        	margin-top: 30px;
+        	margin-left: 40px;
+        	float: left;
+        }
+        
+        #confirmButton2 {
+        	margin-top: 25px;
+        	margin-left: 110px;
+        	float: left;
+        }
+        
+        .changeText {
+        	margin-top: 11px;
+        	margin-left:130px;
+        	display: block;
+        }
+        
+        .viewText {
+        	margin-top: 11px;
+        	margin-left:130px;
+        	display: block;
+        	
+        }
+        
+        #viewBox {
+        	width: 350px;
+        	height: 400px;
+        	background-image: url("/studentInfoSystem/images/goodsBox.png"); 
+        	position: absolute;
+            top: 100px;
+            left: 500px;
+            display: none;
+            z-index:2;
+        }
+        
+         #curtain {
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background-color: rgba(20, 19, 22, 0.97);
+            opacity: 0.3;
+            z-index:1;
+            display: none;
+        }
+         .selectbox{
+             height:28px;
+         }
+         .txtbox{
+             height:20px;
+         }
+         .buttongroup {
+             height: 50px;
+             width: 800px;
+             position: absolute;
+             /* border: #ccc solid 1px; */
+             top: 168px;
+             left: 230px;
+             margin-top: 20px;
+             margin-left: 60px;
+            }
+          #table{
+                position: absolute;
+                margin-top: 46px;
+                margin-left: 28px;
+                width: 1000px;
+                height: auto;
+         }
+         .picture{
+             height:60px;
+             width:60px;
+         }
+         .main{
+             height:auto;
+             width:900px;
+         }

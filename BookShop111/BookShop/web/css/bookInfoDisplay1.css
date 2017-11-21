@@ -1,0 +1,169 @@
+body {
+    background:url(../images/front_background2.png) no-repeat;
+}
+          #loginButton {
+           position:absolute;
+           top: 240px;
+           left: 28px;
+        }
+		#img1 {
+		 position: absolute;
+		 top: 40px;
+		 left: 350px;
+		}
+		#img2 {
+		 position: absolute;
+		 width:25px;
+		 top: 45px;
+		 left: 600px;
+		}
+		.img3 {
+		background-color:white;
+		 position: absolute;
+		 width:25px;
+		 top: 45px;
+		 left: 600px;
+		}
+	  .img5 {
+		 float:left;
+		 width:170px;
+		 height: 250px;
+		 margin-top: 115px;
+		 margin-left: 220px;
+		}
+		#font {
+			font-size:14px;
+			color:#ffffff;
+		}
+		.fontStyle1 {
+		 position: absolute;
+		 top: 46px;
+		 left:1180px;
+		}
+		.fontStyle2 {
+		 position: absolute;
+		 top: 46px;
+		 left:1230px;
+         color :white;
+		}
+		.fontStyle3 {
+			font-size:28px;
+			font-family:微软雅黑;
+			color:#0593d3;
+			float:left;
+			margin-top: 115px;
+			margin-left: 30px;
+		}
+		.fontStyle4 {
+			font-size:16px;
+			font-family:微软雅黑;
+			color:#666666;
+			float:left;
+			margin-top: 160px;
+			margin-left: -110px;
+		}
+		.fontStyle5 {
+			font-size:24px;
+			font-family:微软雅黑;
+			color:red;
+			float:left;
+			margin-top: 218px;
+			margin-left: -115px;
+		}
+		.fontStyle6 {
+			font-size:16px;
+			font-family:微软雅黑;
+			color:#666666;
+			float:left;
+			margin-top: 280px;
+			margin-left: -110px;
+		}
+		.select_Style{
+			float:left;
+			margin-top: 282px;
+			margin-left: -25px;
+		}
+		.fontStyle7 {
+			font-size:16px;
+			font-family:微软雅黑;
+			color:#666666;
+			float:left;
+			margin-top: 280px;
+			margin-left: 10px;
+		}
+		.fontStyle8 {
+			font-size:16px;
+			font-family:微软雅黑;
+			color:#666666;
+			float:left;
+			margin-top: 280px;
+			margin-left: 0px;
+		}
+		#table{
+			    width: 500px;
+                position: absolute;
+                top: 476px;
+                left: 267px;
+		}
+		#img4 {
+			     float: left;
+                height: 30px;
+		}
+		#font2{
+			 font-size:16px;
+			 color:#333333;
+			 font-family:微软雅黑;
+		}
+		.displayPosition{
+			position: absolute;
+			top: 450px;
+			left: 232px;
+		}
+		a:link {
+			 text-decoration:none;
+			
+		}    /* 未被访问的链接 */
+		a:visited {
+			 text-decoration:none;
+			 color:#333333;
+		 } /* 已被访问的链接 */
+		a:hover {
+			 text-decoration:underline;
+			 color:#0593d3;
+		 }   /* 鼠标指针移动到链接上 */
+		a:active {
+			 text-decoration:underline;
+			 color:#0593d3;
+		 }  /* 正在被点击的链接 */
+		 
+	  #searchbox {
+		  color: gray;
+		  position:absolute;
+		  left:400px;
+		  top:45px;  
+		 }
+       .searchbook{
+                margin-top: 36px;
+                margin-left: 420px;
+                height: 21px;
+        }
+       .font{
+           color:white;
+       }
+		 .details{
+                position: absolute;
+                /* top: 30px; */
+                margin-left: 426px;
+                margin-top: -100px;
+		 }
+ 
+
+	/* 	 input{
+		 position: absolute;
+		 border-radius:10px;
+		 background-color:white;
+		 width:280px;
+		 height:35px;
+		 top: 40px;
+		 left: 350px;
+		} */

@@ -1,0 +1,146 @@
+﻿body {
+    background:url(../images/shoppingCart_background.png) no-repeat;
+}
+.searchbook{
+                   margin-top: 34px;
+    margin-left: 422px;
+    height: 27px;
+        }
+  	.img3 {
+		background-color: white;
+        position: absolute;
+        width: 25px;
+        top: 35px;
+        left: 593px;
+		}
+    .maincontainer{
+            position: absolute;
+            margin-top: 170px;
+            margin-left: 260px;
+            width: 500px;
+            height: 619px;
+            }
+    	.input_style2{
+			 border-style:solid;
+		     border-color:#0593d3;
+		     border-width:1px;
+		}
+		.input_style1{
+			 position: absolute;
+			 border-radius:10px;
+			 background-color:white;
+			 width:280px;
+			 height:35px;
+			 top: 40px;
+			 left: 350px;
+		}
+		#table1{
+			width: 500px;
+			float: left;
+			margin-top: 130px;
+			margin-left: 220px;
+		}
+		.button_style{
+			margin-top:20px;
+			float: left;
+			width:160px;
+			height:30px;
+		}
+		#img1 {
+		 position: absolute;
+		 top: 40px;
+		 left: 350px;
+		}
+		#img2 {
+		 position: absolute;
+		 width:25px;
+		 top: 45px;
+		 left: 600px;
+		}
+		.font {
+			font-size:14px;
+			color:#ffffff;
+		}
+		.fontStyle1 {
+		 position: absolute;
+		 top: 46px;
+		 left:1180px;
+		}
+		.fontStyle2 {
+		 position: absolute;
+		 top: 46px;
+		 left:1230px;
+		}
+		a:link {
+		 text-decoration:none;
+		 color:#333333;
+		}    /* 未被访问的链接 */
+		a:hover {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }   /* 鼠标指针移动到链接上 */
+		a:active {
+		 text-decoration:underline;
+		 color:#0593d3;
+		 }  /* 正在被点击的链接 */
+		 #searchbox {
+		  color: gray;
+		 }
+		 #loadButton {
+            width: 148px;
+            margin:auto;
+            margin-top:250px;
+        }
+		 #alertBox {
+            width: 350px;
+            height: 329px;
+            background-image: url("/studentInfoSystem/images/login_background.png"); 
+            position: absolute;
+            top: 100px;
+            left: 500px;
+            display: none;
+            z-index:2;
+        }
+        #curtain {
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background-color: rgba(20, 19, 22, 0.97);
+            opacity: 0.3;
+            z-index:1;
+            display: none;
+        }
+
+        #loginButton {
+            float: left;
+            margin-top: 240px;
+            margin-left: 28px;
+        }
+
+        #cancelButton {
+            float: left;
+            margin-top: 240px;
+            margin-left: 0px;
+        }
+        .inputStyle1{
+	        position: absolute;
+			border-color:#5dbf55;
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top:104px;
+			left: 70px;
+		}
+        .inputStyle2{
+       		position: absolute;
+			border-color:#0593d3;			
+			background-color: #ffffff;
+			width: 255px;
+			height: 35px;
+			top: 162px;
+			left: 70px;
+        }
+          #loginButton {
+           position:absolute;
+           
+        }
